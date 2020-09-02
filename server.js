@@ -2,6 +2,7 @@ const express = require('express');
 
 const server = express();
 
+server.use(express.json());
 server.use(logger());
 
 server.get('/', (req, res) => {
