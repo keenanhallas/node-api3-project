@@ -1,4 +1,3 @@
-// code away!
 const server = require("./server");
 const userRouter = require("./users/userRouter");
 //const postRouter = require("./posts/postRouter");
